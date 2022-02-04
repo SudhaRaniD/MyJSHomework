@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+     
+    height: 100%;
+    margin:0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+ }
+
+ .parent{
+     position: relative;
+     width: 963px;
+     height: 950px;
+     background-color: red;
+     color: white;
+ }
+.arrayimg{
+  position: absolute;
+  left: 55%;
+  top: 10px;
+  background-color: rgb(146, 223, 58);
+  width: 280px;
+  height: 210px;
+ 
+}
+.testimg{
+margin-top: 8px;
+margin-left: 9px;
+border-radius: 100%;
+  }
+  .arrayimg1{
+    position: absolute;
+    left: 55%;
+    top: 75%;
+    background-color: rgb(146, 223, 58);
+    width: 300px;
+    height: 200px;
+   
+  }
+ .testimg1{
+  margin-top: 8px;
+  margin-left: 1px;
+  border-radius: 80%;
+    }
+
+ .calculation{
+position: absolute;
+top: 10px;
+left: 10px;
+width:450px;
+height: 450px;
+background-color: turquoise;
+color: black;
+ }
+ .btn-info1{
+   width: 130px;
+ }
+
+ .btn-info2{
+   width: 130px;
+ }
+ p{
+   font-size: 20px;
+   color: red;
+   font-weight: 900;
+ }
+
+ h1{
+margin-bottom: 20px;
+margin-top: 12px;
+ }
+
+ .divcalc {
+ margin-bottom: 10px;
+ }
+
+  label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+  }
+.btn-info{
+  width: 50px;
+}
+
+.divresult{
+    margin-top: 190px;
+}
+.myarray{
+  position: absolute;
+  top: 470px;
+  left: 10px;
+  width:450px;
+  height: 450px;
+  background-color: turquoise;
+  color: black;
+}
+.arraybutton{
+  position: absolute;
+  padding: 10px;
+  width: 130px;
+  margin-left: 15%;
+  margin-top: 5%;
+  background-color: brown;
+ 
+
+}
+
+
+.arraydisplay1{
+  position: absolute;
+  width: 290px;
+  height: 150px;
+  background-color: rgb(146, 223, 58);
+  color: black;
+  left: 30PX; 
+  margin-top: 19%;
+  
+}
+
+.arraytable1{
+  position: absolute;
+  background-color: chartreuse;
+margin-left: 10%;
+margin-top: 8%;
+
+}
+
+ h1{
+     text-align: center;
+     color: blue;
+     
+ }
+
+ .arraydisplay{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background-color: turquoise;
+  top: 25%;
+  left: 470PX;
+}
+
+.arraytable{
+  position: absolute;
+  background-color: chartreuse;
+margin-left: 10%;
+margin-top: 8%;
+
+}

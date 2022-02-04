@@ -1,0 +1,26 @@
+.border{
+    margin: 0px;
+}
+
+h1{
+text-align:center;
+font-size: 30px;
+color: blueviolet;
+
+}
+
+ .arraydisplay{
+     position: relative;
+     width: 900px;
+     height: 900px;
+     background-color: burlywood;
+ }
+
+ .arraytable{
+     position: absolute;
+     background-color: chartreuse;
+  margin-left: 10%;
+  margin-top: 8%;
+
+ }
+

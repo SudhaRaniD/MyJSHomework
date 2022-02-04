@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class ="parent">
+    <div class= "arrayimg">
+        <img class = "testimg" src="arrayimage.jfif">
+    </div>
+
+    <div class= "arrayimg1">
+        <img class = "testimg1" src="cars.jfif">
+    </div>
+
+<div class="calculation">
+    <h1> Calculator / Boolean Logic</h1>
+    <div class="divcalc">
+       <label>Enter First Number: </label>
+       <input type="number" name="number1" id="number1" placeholder="Enter number"> 
+    </div>
+
+    <div class="divcalc">
+    <label>Enter Second Number</label>
+    <input type="number" name="number2" id="number2" placeholder="Enter number">
+    </div> 
+
+    
+    
+    <div class="divbutton" style =" position: absolute; left: 75px; margin-top: 30px;">
+      <button type="submit" class="btn-info" onclick="calculator('A')">ADD</button>
+      <button type="submit" class="btn-info" onclick="calculator('S')">SUB</button>
+      <button type="submit" class="btn-info" onclick="calculator('M')">MULTI</button>
+      <button type="submit" class="btn-info" onclick="calculator('D')">DIV</button>
+      <button type="submit" class="btn-info" onclick="calculator('C')">CLEAR</button>
+      <button type="submit" class="btn-info2" onclick="calculator('B')">Task2 - Boolean</button>
+    </div><br>
+
+
+
+ 
+    <div class="divbutton" style =" position: absolute; left: 75px; margin-top: 70px;">
+
+        <p> Please select the below operation for entering values through prompt.</p>
+        <br>
+
+        <button type="submit" class="btn-info" onclick="prompt_calculator('AP')">ADD</button>
+        <button type="submit" class="btn-info" onclick="prompt_calculator('SP')">SUB</button>
+        <button type="submit" class="btn-info" onclick="prompt_calculator('MP')">MULTI</button>
+        <button type="submit" class="btn-info" onclick="prompt_calculator('DP')">DIV</button>
+        <button type="submit" class="btn-info1" onclick="prompt_calculator('BP')">Task2 - Boolean Prompt</button>
+    </div>
+
+      <div class="divresult" >
+        <label>Result</label>
+        <input type="text" name="result" id="result" disabled>
+      </div>
+    
+</div>
+
+<div class="myarray">
+<h1>Array </h1>
+
+<div class="divtable">
+    <label>Array Element Cars</label>
+    <input type= "text" name="arraycars" id="arraycars" array-car='TOYOTA, AUDI, BMW', value = 'TOYOTA, AUDI, BMW' , disabled>
+</div>
+
+<div class="divtable">
+    <label>Enter Car Name</label>
+    <input type="text" name="addarraycars" id="addarraycars" value=''>
+</div>
+<div class ="arraybutton">
+<button type="submit"  onclick="show_console()">Display -Console</button>
+
+
+</div>
+
+<div class="arraydisplay1">
+        <div class="arraytable1">
+    <table id="fetch1" cellspacing="2" cellpadding="10" class="table">
+        <thead>
+            <tr>
+                <th>CAR</th>
+            </tr>
+        </thead>
+        
+        
+    </table>    
+    </div> 
+    </div>
+</div>
+<div class="arraydisplay">
+    <h1>Create dynamic table from ArrayList using JavaScript</h1>
+     <div class="arraytable">
+    <table id="fetch" cellspacing="2" cellpadding="10" class="table">
+        <tr>
+            <th>CAR</th>
+            <th>COLOUR</th>
+            <th>YEAR OF RELEASE</th>
+        </tr>
+    </table>    
+    </div> 
+    </div>
+</div>
+</div>
+<script src = "mystyle.js"></script>   
+</body>
+</html>
